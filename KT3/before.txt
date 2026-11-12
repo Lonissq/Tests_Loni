@@ -1,0 +1,21 @@
+test_issue_one_microphone (test_start.StartTests.test_issue_one_microphone) ... ok
+test_initial_state (test_student.StudentTests.test_initial_state) ... ok
+test_invalid_inputs (test_student.StudentTests.test_invalid_inputs) ... ok
+test_other_items_unchanged_on_issue (test_student.StudentTests.test_other_items_unchanged_on_issue) ... ok
+test_other_items_unchanged_on_return (test_student.StudentTests.test_other_items_unchanged_on_return) ... ok
+test_valid_inputs (test_student.StudentTests.test_valid_inputs) ... 
+  test_valid_inputs (test_student.StudentTests.test_valid_inputs) (data='3') ... FAIL
+
+======================================================================
+FAIL: test_valid_inputs (test_student.StudentTests.test_valid_inputs) (data='3')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/loni/Prj/Tests/KT3/IThub-24.3-main/КТ/КТ3/project/tests/test_student.py", line 58, in test_valid_inputs
+    self.assertTrue(result["ok"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)

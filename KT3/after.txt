@@ -1,0 +1,11 @@
+test_issue_one_microphone (test_start.StartTests.test_issue_one_microphone) ... ok
+test_initial_state (test_student.StudentTests.test_initial_state) ... ok
+test_invalid_inputs (test_student.StudentTests.test_invalid_inputs) ... ok
+test_other_items_unchanged_on_issue (test_student.StudentTests.test_other_items_unchanged_on_issue) ... ok
+test_other_items_unchanged_on_return (test_student.StudentTests.test_other_items_unchanged_on_return) ... ok
+test_valid_inputs (test_student.StudentTests.test_valid_inputs) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
