@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OMgMlSGsFdg=",
+  "success": true,
+  "projectFilePath": "/home/loni/Prj/Tests/unit-testing-student/src/OrderPricing/OrderPricing.csproj",
+  "expectedPackageFiles": [
+    "/home/loni/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.33/microsoft.aspnetcore.app.ref.8.0.33.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="b8206625-42c6-4884-9482-7421f72ffd48" name="@Allfather 2026-11-14 11:44:05" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-14T11:44:05.8547624+03:00" queuing="2026-11-14T11:44:05.8547625+03:00" start="2026-11-14T11:44:05.4722487+03:00" finish="2026-11-14T11:44:05.8841113+03:00" />
+  <TestSettings name="default" id="2e2d8701-61eb-4c2c-a953-e906e894f588">
+    <Deployment runDeploymentRoot="_Allfather_2026-11-14_11_44_05" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="7971a014-fac5-4954-a6bc-fe5a3d2da219" testId="bd8a127d-676a-47b3-a378-6afbf3a84f91" testName="CalculateTotal_OrderAt5PercentDiscountThreshold_ReturnsSubtotalMinus5Percent_5" computerName="Allfather" duration="00:00:00.0099180" startTime="2026-11-14T11:44:05.7757736+03:00" endTime="2026-11-14T11:44:05.7858691+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7971a014-fac5-4954-a6bc-fe5a3d2da219">
+      <Output>
+        <ErrorInfo>
+          <Message>Сбой Assert.AreEqual. Ожидается: &lt;4750&gt;. Фактически: &lt;5000&gt;. </Message>
+          <StackTrace>   at OrderPricing.Tests.PriceCalculatorTests.CalculateTotal_OrderAt5PercentDiscountThreshold_ReturnsSubtotalMinus5Percent_5() in /home/loni/Prj/Tests/unit-testing-student/tests/OrderPricing.Tests/PriceCalculatorTests.cs:line 82
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="18a16a85-a071-4144-acb4-1f5e02202cd7" testId="7f28d247-5fe3-f801-5b2a-49c9f76da3c3" testName="CalculateTotal_OrderBelow5PercentDiscountThreshold_ReturnsSubtotal_4" computerName="Allfather" duration="00:00:00.0000492" startTime="2026-11-14T11:44:05.7756774+03:00" endTime="2026-11-14T11:44:05.7757577+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18a16a85-a071-4144-acb4-1f5e02202cd7" />
+    <UnitTestResult executionId="acd2f3eb-be59-4e98-9fbd-fea5b8c488d9" testId="ee217894-8305-902d-2a51-d5964ae63dcb" testName="CalculateTotal_OrderWithExpressDeliveryAnd5PercentDiscount_ReturnsDiscountedSubtotalPlusExpressDelivery_9" computerName="Allfather" duration="00:00:00.0002572" startTime="2026-11-14T11:44:05.8114914+03:00" endTime="2026-11-14T11:44:05.8118401+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="acd2f3eb-be59-4e98-9fbd-fea5b8c488d9">
+      <Output>
+        <ErrorInfo>
+          <Message>Сбой Assert.AreEqual. Ожидается: &lt;12850&gt;. Фактически: &lt;12350,00&gt;. </Message>
+          <StackTrace>   at OrderPricing.Tests.PriceCalculatorTests.CalculateTotal_OrderWithExpressDeliveryAnd5PercentDiscount_ReturnsDiscountedSubtotalPlusExpressDelivery_9() in /home/loni/Prj/Tests/unit-testing-student/tests/OrderPricing.Tests/PriceCalculatorTests.cs:line 130
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3c047397-60df-47f8-b2bd-5c96b3e6c304" testId="a656f976-e6c4-1c6d-a42c-286da7b5e98d" testName="CalculateTotal_SmallOrderWithExpressDelivery_ReturnsSubtotalPlusExpressDelivery_8" computerName="Allfather" duration="00:00:00.0000804" startTime="2026-11-14T11:44:05.7863459+03:00" endTime="2026-11-14T11:44:05.7864695+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c047397-60df-47f8-b2bd-5c96b3e6c304" />
+    <UnitTestResult executionId="7f20f980-4aaf-44f6-a732-1ee369338a5f" testId="118cdb7e-f678-ada8-614f-983aedb05cf4" testName="CalculateTotal_SmallOrderWithoutDiscounts_ReturnsSubtotalPlusStandardDelivery_1" computerName="Allfather" duration="00:00:00.0001737" startTime="2026-11-14T11:44:05.7749404+03:00" endTime="2026-11-14T11:44:05.7752196+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f20f980-4aaf-44f6-a732-1ee369338a5f" />
+    <UnitTestResult executionId="9f96ef79-6941-4f66-8540-dcbc50a8489e" testId="f1162bb7-d75d-3049-9a15-efc939b2d84f" testName="RegularOrder_1000WithoutLoyalty_TotalIs1300" computerName="Allfather" duration="00:00:00.0030249" startTime="2026-11-14T11:44:05.7544062+03:00" endTime="2026-11-14T11:44:05.7719894+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f96ef79-6941-4f66-8540-dcbc50a8489e" />
+    <UnitTestResult executionId="ab6bf601-8d35-436b-9415-cab77cd89a2d" testId="e5806440-5080-b916-dcc6-c35cfff88504" testName="CalculateTotal_OrderAtFreeDeliveryThreshold_ReturnsSubtotal_2" computerName="Allfather" duration="00:00:00.0000879" startTime="2026-11-14T11:44:05.7753989+03:00" endTime="2026-11-14T11:44:05.7755415+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab6bf601-8d35-436b-9415-cab77cd89a2d" />
+    <UnitTestResult executionId="0751fa02-c767-4754-b3f3-71c6fdec68ce" testId="e6a8d7cf-544b-2e28-0b15-bd6543a53ba2" testName="CalculateTotal_OrderAbove5PercentThresholdWithLoyaltyCard_ReturnsSubtotalMinus10Percent_7" computerName="Allfather" duration="00:00:00.0002053" startTime="2026-11-14T11:44:05.7860792+03:00" endTime="2026-11-14T11:44:05.7863262+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0751fa02-c767-4754-b3f3-71c6fdec68ce">
+      <Output>
+        <ErrorInfo>
+          <Message>Сбой Assert.AreEqual. Ожидается: &lt;4590&gt;. Фактически: &lt;4335,00&gt;. </Message>
+          <StackTrace>   at OrderPricing.Tests.PriceCalculatorTests.CalculateTotal_OrderAbove5PercentThresholdWithLoyaltyCard_ReturnsSubtotalMinus10Percent_7() in /home/loni/Prj/Tests/unit-testing-student/tests/OrderPricing.Tests/PriceCalculatorTests.cs:line 106
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="94969637-4419-4e91-98d7-285304076369" testId="8c1353d1-9a8e-7067-c9b1-2c7c48249309" testName="CalculateTotal_OrderWithLoyaltyCard_ReturnsSubtotalMinus10Percent_3" computerName="Allfather" duration="00:00:00.0000616" startTime="2026-11-14T11:44:05.7755583+03:00" endTime="2026-11-14T11:44:05.7756629+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94969637-4419-4e91-98d7-285304076369" />
+    <UnitTestResult executionId="ac499c86-7f88-475a-8358-8ce0fce858e9" testId="7ed42518-7b59-127a-2e21-c0fd0cf784e9" testName="CalculateTotal_SubtotalAboveMaximum_ThrowsArgumentOutOfRangeException_12" computerName="Allfather" duration="00:00:00.0005338" startTime="2026-11-14T11:44:05.8121372+03:00" endTime="2026-11-14T11:44:05.8132015+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac499c86-7f88-475a-8358-8ce0fce858e9" />
+    <UnitTestResult executionId="9e364da0-1776-4810-9ab8-26e44bfcd40f" testId="d12c01bd-c344-2c20-7290-d2e4405628a6" testName="CalculateTotal_OrderBelowFreeDeliveryThreshold_ReturnsSubtotalPlusStandardDelivery_6" computerName="Allfather" duration="00:00:00.0000707" startTime="2026-11-14T11:44:05.7859231+03:00" endTime="2026-11-14T11:44:05.7860601+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e364da0-1776-4810-9ab8-26e44bfcd40f" />
+    <UnitTestResult executionId="73bb6d0c-5864-4f28-a9c7-9a58bcc92102" testId="e1fe45f5-62ea-a333-f524-5d8b55ae2153" testName="CalculateTotal_MaximumAllowedSubtotal_ReturnsDiscountedSubtotal_11" computerName="Allfather" duration="00:00:00.0000605" startTime="2026-11-14T11:44:05.8120232+03:00" endTime="2026-11-14T11:44:05.8121236+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73bb6d0c-5864-4f28-a9c7-9a58bcc92102" />
+    <UnitTestResult executionId="d50e0a12-0c36-44e2-8e60-46b331f04ff9" testId="b878ff99-db3e-55af-69e4-fc181624704e" testName="CalculateTotal_MinimalOrder_ReturnsSubtotalPlusStandardDelivery_10" computerName="Allfather" duration="00:00:00.0000820" startTime="2026-11-14T11:44:05.8118732+03:00" endTime="2026-11-14T11:44:05.8120020+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d50e0a12-0c36-44e2-8e60-46b331f04ff9" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="RegularOrder_1000WithoutLoyalty_TotalIs1300" storage="/home/loni/prj/tests/unit-testing-student/tests/orderpricing.tests/bin/debug/net8.0/orderpricing.tests.dll" id="f1162bb7-d75d-3049-9a15-efc939b2d84f">
+      <Execution id="9f96ef79-6941-4f66-8540-dcbc50a8489e" />
+      <TestMethod codeBase="/home/loni/Prj/Tests/unit-testing-student/tests/OrderPricing.Tests/bin/Debug/net8.0/OrderPricing.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="OrderPricing.Tests.PriceCalculatorTests" name="RegularOrder_1000WithoutLoyalty_TotalIs1300" />
+    </UnitTest>
+    <UnitTest name="CalculateTotal_SmallOrderWithoutDiscounts_ReturnsSubtotalPlusStandardDelivery_1" storage="/home/loni/prj/tests/unit-testing-student/tests/orderpricing.tests/bin/debug/net8.0/orderpricing.tests.dll" id="118cdb7e-f678-ada8-614f-983aedb05cf4">
+      <Execution id="7f20f980-4aaf-44f6-a732-1ee369338a5f" />
+      <TestMethod codeBase="/home/loni/Prj/Tests/unit-testing-student/tests/OrderPricing.Tests/bin/Debug/net8.0/OrderPricing.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="OrderPricing.Tests.PriceCalculatorTests" name="CalculateTotal_SmallOrderWithoutDiscounts_ReturnsSubtotalPlusStandardDelivery_1" />
+    </UnitTest>
+    <UnitTest name="CalculateTotal_OrderWithLoyaltyCard_ReturnsSubtotalMinus10Percent_3" storage="/home/loni/prj/tests/unit-testing-student/tests/orderpricing.tests/bin/debug/net8.0/orderpricing.tests.dll" id="8c1353d1-9a8e-7067-c9b1-2c7c48249309">
+      <Execution id="94969637-4419-4e91-98d7-285304076369" />
+      <TestMethod codeBase="/home/loni/Prj/Tests/unit-testing-student/tests/OrderPricing.Tests/bin/Debug/net8.0/OrderPricing.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="OrderPricing.Tests.PriceCalculatorTests" name="CalculateTotal_OrderWithLoyaltyCard_ReturnsSubtotalMinus10Percent_3" />
+    </UnitTest>
+    <UnitTest name="CalculateTotal_OrderAtFreeDeliveryThreshold_ReturnsSubtotal_2" storage="/home/loni/prj/tests/unit-testing-student/tests/orderpricing.tests/bin/debug/net8.0/orderpricing.tests.dll" id="e5806440-5080-b916-dcc6-c35cfff88504">
+      <Execution id="ab6bf601-8d35-436b-9415-cab77cd89a2d" />
+      <TestMethod codeBase="/home/loni/Prj/Tests/unit-testing-student/tests/OrderPricing.Tests/bin/Debug/net8.0/OrderPricing.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="OrderPricing.Tests.PriceCalculatorTests" name="CalculateTotal_OrderAtFreeDeliveryThreshold_ReturnsSubtotal_2" />
+    </UnitTest>
+    <UnitTest name="CalculateTotal_MaximumAllowedSubtotal_ReturnsDiscountedSubtotal_11" storage="/home/loni/prj/tests/unit-testing-student/tests/orderpricing.tests/bin/debug/net8.0/orderpricing.tests.dll" id="e1fe45f5-62ea-a333-f524-5d8b55ae2153">
+      <Execution id="73bb6d0c-5864-4f28-a9c7-9a58bcc92102" />
+      <TestMethod codeBase="/home/loni/Prj/Tests/unit-testing-student/tests/OrderPricing.Tests/bin/Debug/net8.0/OrderPricing.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="OrderPricing.Tests.PriceCalculatorTests" name="CalculateTotal_MaximumAllowedSubtotal_ReturnsDiscountedSubtotal_11" />
+    </UnitTest>
+    <UnitTest name="CalculateTotal_SmallOrderWithExpressDelivery_ReturnsSubtotalPlusExpressDelivery_8" storage="/home/loni/prj/tests/unit-testing-student/tests/orderpricing.tests/bin/debug/net8.0/orderpricing.tests.dll" id="a656f976-e6c4-1c6d-a42c-286da7b5e98d">
+      <Execution id="3c047397-60df-47f8-b2bd-5c96b3e6c304" />
+      <TestMethod codeBase="/home/loni/Prj/Tests/unit-testing-student/tests/OrderPricing.Tests/bin/Debug/net8.0/OrderPricing.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="OrderPricing.Tests.PriceCalculatorTests" name="CalculateTotal_SmallOrderWithExpressDelivery_ReturnsSubtotalPlusExpressDelivery_8" />
+    </UnitTest>
+    <UnitTest name="CalculateTotal_MinimalOrder_ReturnsSubtotalPlusStandardDelivery_10" storage="/home/loni/prj/tests/unit-testing-student/tests/orderpricing.tests/bin/debug/net8.0/orderpricing.tests.dll" id="b878ff99-db3e-55af-69e4-fc181624704e">
+      <Execution id="d50e0a12-0c36-44e2-8e60-46b331f04ff9" />
+      <TestMethod codeBase="/home/loni/Prj/Tests/unit-testing-student/tests/OrderPricing.Tests/bin/Debug/net8.0/OrderPricing.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="OrderPricing.Tests.PriceCalculatorTests" name="CalculateTotal_MinimalOrder_ReturnsSubtotalPlusStandardDelivery_10" />
+    </UnitTest>
+    <UnitTest name="CalculateTotal_OrderBelow5PercentDiscountThreshold_ReturnsSubtotal_4" storage="/home/loni/prj/tests/unit-testing-student/tests/orderpricing.tests/bin/debug/net8.0/orderpricing.tests.dll" id="7f28d247-5fe3-f801-5b2a-49c9f76da3c3">
+      <Execution id="18a16a85-a071-4144-acb4-1f5e02202cd7" />
+      <TestMethod codeBase="/home/loni/Prj/Tests/unit-testing-student/tests/OrderPricing.Tests/bin/Debug/net8.0/OrderPricing.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="OrderPricing.Tests.PriceCalculatorTests" name="CalculateTotal_OrderBelow5PercentDiscountThreshold_ReturnsSubtotal_4" />
+    </UnitTest>
+    <UnitTest name="CalculateTotal_OrderAbove5PercentThresholdWithLoyaltyCard_ReturnsSubtotalMinus10Percent_7" storage="/home/loni/prj/tests/unit-testing-student/tests/orderpricing.tests/bin/debug/net8.0/orderpricing.tests.dll" id="e6a8d7cf-544b-2e28-0b15-bd6543a53ba2">
+      <Execution id="0751fa02-c767-4754-b3f3-71c6fdec68ce" />
+      <TestMethod codeBase="/home/loni/Prj/Tests/unit-testing-student/tests/OrderPricing.Tests/bin/Debug/net8.0/OrderPricing.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="OrderPricing.Tests.PriceCalculatorTests" name="CalculateTotal_OrderAbove5PercentThresholdWithLoyaltyCard_ReturnsSubtotalMinus10Percent_7" />
+    </UnitTest>
+    <UnitTest name="CalculateTotal_OrderBelowFreeDeliveryThreshold_ReturnsSubtotalPlusStandardDelivery_6" storage="/home/loni/prj/tests/unit-testing-student/tests/orderpricing.tests/bin/debug/net8.0/orderpricing.tests.dll" id="d12c01bd-c344-2c20-7290-d2e4405628a6">
+      <Execution id="9e364da0-1776-4810-9ab8-26e44bfcd40f" />
+      <TestMethod codeBase="/home/loni/Prj/Tests/unit-testing-student/tests/OrderPricing.Tests/bin/Debug/net8.0/OrderPricing.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="OrderPricing.Tests.PriceCalculatorTests" name="CalculateTotal_OrderBelowFreeDeliveryThreshold_ReturnsSubtotalPlusStandardDelivery_6" />
+    </UnitTest>
+    <UnitTest name="CalculateTotal_SubtotalAboveMaximum_ThrowsArgumentOutOfRangeException_12" storage="/home/loni/prj/tests/unit-testing-student/tests/orderpricing.tests/bin/debug/net8.0/orderpricing.tests.dll" id="7ed42518-7b59-127a-2e21-c0fd0cf784e9">
+      <Execution id="ac499c86-7f88-475a-8358-8ce0fce858e9" />
+      <TestMethod codeBase="/home/loni/Prj/Tests/unit-testing-student/tests/OrderPricing.Tests/bin/Debug/net8.0/OrderPricing.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="OrderPricing.Tests.PriceCalculatorTests" name="CalculateTotal_SubtotalAboveMaximum_ThrowsArgumentOutOfRangeException_12" />
+    </UnitTest>
+    <UnitTest name="CalculateTotal_OrderWithExpressDeliveryAnd5PercentDiscount_ReturnsDiscountedSubtotalPlusExpressDelivery_9" storage="/home/loni/prj/tests/unit-testing-student/tests/orderpricing.tests/bin/debug/net8.0/orderpricing.tests.dll" id="ee217894-8305-902d-2a51-d5964ae63dcb">
+      <Execution id="acd2f3eb-be59-4e98-9fbd-fea5b8c488d9" />
+      <TestMethod codeBase="/home/loni/Prj/Tests/unit-testing-student/tests/OrderPricing.Tests/bin/Debug/net8.0/OrderPricing.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="OrderPricing.Tests.PriceCalculatorTests" name="CalculateTotal_OrderWithExpressDeliveryAnd5PercentDiscount_ReturnsDiscountedSubtotalPlusExpressDelivery_9" />
+    </UnitTest>
+    <UnitTest name="CalculateTotal_OrderAt5PercentDiscountThreshold_ReturnsSubtotalMinus5Percent_5" storage="/home/loni/prj/tests/unit-testing-student/tests/orderpricing.tests/bin/debug/net8.0/orderpricing.tests.dll" id="bd8a127d-676a-47b3-a378-6afbf3a84f91">
+      <Execution id="7971a014-fac5-4954-a6bc-fe5a3d2da219" />
+      <TestMethod codeBase="/home/loni/Prj/Tests/unit-testing-student/tests/OrderPricing.Tests/bin/Debug/net8.0/OrderPricing.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="OrderPricing.Tests.PriceCalculatorTests" name="CalculateTotal_OrderAt5PercentDiscountThreshold_ReturnsSubtotalMinus5Percent_5" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="bd8a127d-676a-47b3-a378-6afbf3a84f91" executionId="7971a014-fac5-4954-a6bc-fe5a3d2da219" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f28d247-5fe3-f801-5b2a-49c9f76da3c3" executionId="18a16a85-a071-4144-acb4-1f5e02202cd7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee217894-8305-902d-2a51-d5964ae63dcb" executionId="acd2f3eb-be59-4e98-9fbd-fea5b8c488d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a656f976-e6c4-1c6d-a42c-286da7b5e98d" executionId="3c047397-60df-47f8-b2bd-5c96b3e6c304" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="118cdb7e-f678-ada8-614f-983aedb05cf4" executionId="7f20f980-4aaf-44f6-a732-1ee369338a5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1162bb7-d75d-3049-9a15-efc939b2d84f" executionId="9f96ef79-6941-4f66-8540-dcbc50a8489e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5806440-5080-b916-dcc6-c35cfff88504" executionId="ab6bf601-8d35-436b-9415-cab77cd89a2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6a8d7cf-544b-2e28-0b15-bd6543a53ba2" executionId="0751fa02-c767-4754-b3f3-71c6fdec68ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c1353d1-9a8e-7067-c9b1-2c7c48249309" executionId="94969637-4419-4e91-98d7-285304076369" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ed42518-7b59-127a-2e21-c0fd0cf784e9" executionId="ac499c86-7f88-475a-8358-8ce0fce858e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d12c01bd-c344-2c20-7290-d2e4405628a6" executionId="9e364da0-1776-4810-9ab8-26e44bfcd40f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1fe45f5-62ea-a333-f524-5d8b55ae2153" executionId="73bb6d0c-5864-4f28-a9c7-9a58bcc92102" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b878ff99-db3e-55af-69e4-fc181624704e" executionId="d50e0a12-0c36-44e2-8e60-46b331f04ff9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Список результатов" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="13" executed="13" passed="10" failed="3" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

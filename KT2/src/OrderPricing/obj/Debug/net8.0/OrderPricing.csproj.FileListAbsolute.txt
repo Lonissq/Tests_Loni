@@ -1,0 +1,11 @@
+/home/loni/Prj/Tests/unit-testing-student/src/OrderPricing/bin/Debug/net8.0/OrderPricing.deps.json
+/home/loni/Prj/Tests/unit-testing-student/src/OrderPricing/bin/Debug/net8.0/OrderPricing.dll
+/home/loni/Prj/Tests/unit-testing-student/src/OrderPricing/bin/Debug/net8.0/OrderPricing.pdb
+/home/loni/Prj/Tests/unit-testing-student/src/OrderPricing/obj/Debug/net8.0/OrderPricing.GeneratedMSBuildEditorConfig.editorconfig
+/home/loni/Prj/Tests/unit-testing-student/src/OrderPricing/obj/Debug/net8.0/OrderPricing.AssemblyInfoInputs.cache
+/home/loni/Prj/Tests/unit-testing-student/src/OrderPricing/obj/Debug/net8.0/OrderPricing.AssemblyInfo.cs
+/home/loni/Prj/Tests/unit-testing-student/src/OrderPricing/obj/Debug/net8.0/OrderPricing.csproj.CoreCompileInputs.cache
+/home/loni/Prj/Tests/unit-testing-student/src/OrderPricing/obj/Debug/net8.0/OrderPricing.dll
+/home/loni/Prj/Tests/unit-testing-student/src/OrderPricing/obj/Debug/net8.0/refint/OrderPricing.dll
+/home/loni/Prj/Tests/unit-testing-student/src/OrderPricing/obj/Debug/net8.0/OrderPricing.pdb
+/home/loni/Prj/Tests/unit-testing-student/src/OrderPricing/obj/Debug/net8.0/ref/OrderPricing.dll
